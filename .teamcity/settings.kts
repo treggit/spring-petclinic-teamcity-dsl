@@ -32,6 +32,15 @@ version = "2018.2"
 project {
     vcsRoot(PetclinicVcs)
     buildType(Build)
+
+    features {
+        feature {
+            type = "storage_settings"
+            id = "PROJECT_EXT_368"
+            param("storage.name", "storage from dsl")
+            param("storage.type", "S3_storage")
+        }
+    }
 }
 
 object Build : BuildType({
