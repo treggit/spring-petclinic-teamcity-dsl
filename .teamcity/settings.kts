@@ -40,13 +40,6 @@ project {
             param("storage.name", "storage from dsl (229) ((new name))")
             param("storage.type", "S3_storage")
         }
-
-        feature {
-            type = "storage_settings"
-            id = "PROJECT_EXT_36"
-            param("storage.name", "storage from dsl (2)")
-            param("storage.type", "S3_storage")
-        }
     }
 }
 
