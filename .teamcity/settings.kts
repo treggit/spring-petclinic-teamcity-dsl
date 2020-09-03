@@ -36,7 +36,7 @@ project {
     features {
         feature {
             type = "storage_settings"
-            id = "PROJECT_EXT_368"
+            id = "PROJECT_EXT_5"
             param("storage.name", "storage from dsl))")
             param("storage.type", "S3_storage")
         }
