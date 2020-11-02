@@ -44,7 +44,7 @@ project {
 }
 
 object Build : BuildType({
-    name = "Build"
+    name = "Clean and Package"
     artifactRules = "target/*jar"
 
     vcs {
