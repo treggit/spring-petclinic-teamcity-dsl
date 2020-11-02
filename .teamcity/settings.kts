@@ -63,7 +63,7 @@ object Build : BuildType({
 
 object PetclinicVcs : GitVcsRoot({
     name = "PetclinicVcs"
-    url = "https://github.com/treggit/spring-petclinic-teamcity-dsl.git"
+    url = "https://github.com/spring-projects/spring-petclinic.git"
 })
 
 
